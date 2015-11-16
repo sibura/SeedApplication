@@ -1,6 +1,8 @@
 # Seed Application
 
-> A seed application is a small fully functional application that you can grow and adjust easily.
+
+
+![plant](https://cloud.githubusercontent.com/assets/1239497/11179383/941c81cc-8c5b-11e5-9607-2ba96405f406.png) A seed application is a small fully functional application that you can grow and adjust easily.
 
 ## The problem
 
