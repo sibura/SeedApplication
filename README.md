@@ -2,6 +2,8 @@
 
 > A seed application is a small fully functional application that you can grow and adjust easily.
 
+![plant](https://cloud.githubusercontent.com/assets/1239497/11179383/941c81cc-8c5b-11e5-9607-2ba96405f406.png)
+
 ## The problem
 
 Have you ever had an idea for an application or arrived at a Hackathon energized to get going? Then reality hits, all the work you need to do just to start working on your latest and greatest application idea. Energy levels are going down fast... 4 hours later you are still trawling your GitHub account for all the things you need from applications you did in the past.
