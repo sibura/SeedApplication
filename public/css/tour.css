@@ -1,0 +1,66 @@
+body{
+
+	height:90%;
+	width: 90%;
+	/*background-image: url("http://i.imgur.com/Tc8uWr1.jpg");*/
+	
+}
+body {
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  background-image: url('http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-72375.png'); 
+}
+
+.menu {
+   background: #202024 url('https://imagizer.imageshack.us/v2/955x955q90/537/VZeTgn.png') repeat left top; /* This pattern is downloaded from www.subtlepatterns.com */
+  left: -285px;
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+.menu ul {
+  list-style: none;
+  border-top: 1px solid #636366;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.menu a {
+  text-transform: uppercase;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  cursor: pointer;
+  color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+
+.opac {
+  opacity: 0.5;
+}
+ table { border-collapse: collapse; border-spacing: 0; }

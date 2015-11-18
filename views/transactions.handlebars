@@ -1,0 +1,23 @@
+<table>
+<tr>
+
+<th>Description</th>
+<th>Exchange Rate</th>
+<th>Amount</th>
+</tr>
+
+
+<h1><a href="/transect/add">Add a Transaction</a></h1>
+
+{{#transact}}
+<tr>
+
+<td>{{descriptions}}</td>
+<td>{{exchange_rate}}</td>
+<td>{{currency_amount}}</td>
+<td><button><a href="/trans/edit/{{Id}}">Edit</a></button></td>
+<td><button><a href="/trans/delete/{{Id}}">Delete</a></button></td>
+</tr>
+
+{{/transact}}
+</table>

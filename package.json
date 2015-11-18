@@ -1,0 +1,29 @@
+{
+  "name": "tourbank",
+  "version": "1.0.0",
+  "description": "transation",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.4.0",
+    "cookie-session": "^1.2.0",
+    "express-handlebars": "^2.0.1",
+    "express-myconnection": "^1.0.4",
+    "express-session": "^1.12.1",
+    "nodemon": "^1.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codex-academy/SeedApplication.git"
+  },
+  "author": "sibura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codex-academy/SeedApplication/issues"
+  },
+  "homepage": "https://github.com/codex-academy/SeedApplication#readme"
+}
