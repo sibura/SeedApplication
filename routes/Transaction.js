@@ -56,7 +56,7 @@ exports.add = function (req, res, next) {
 			if (err)
 				console.log("Error inserting : %s ",err );
 
-			res.redirect('/trans');
+			res.redirect('/convert');
 		});
 	});
 };

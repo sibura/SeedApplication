@@ -32,6 +32,16 @@ var fs = require('fs');
 app.get('/', function (req, res) {
   res.render('home')
 });
+app.get('/madeTrans', function (req, res) {
+  res.render('madeTrans')
+});
+
+
+
+
+app.get('/convert', function (req, res) {
+  res.render('convertTransactions')
+});
 
 
 //Currencies///
@@ -41,6 +51,7 @@ app.get('/currenc/edit/:Id', current.get);
 app.post('/currenc/edit/:Id', current.update);
 app.post('/currenc/update/:Id', current.update);
 app.post('/currenc/add', current.add);
+app.get('/trans/add', transct.add);
 //this should be a post but this is only an illustrationof CRUD - not on good practices
 app.get('/currenc/delete/:Id', current.delete);
 
@@ -49,7 +60,6 @@ app.get('/currenc/delete/:Id', current.delete);
  ////Transactions //
  app.get('/trans', transct.transact);
   app.get('/transect/add', transct.ShowAdd);
- // app.post('/transect/add', transct.);
   app.get('/transect/add', transct.ShowAdd);
  app.get('/trans/edit/:id', transct.get);
  //app.get('/trans/edit/:id', transct.update);
@@ -57,6 +67,5 @@ app.get('/currenc/delete/:Id', current.delete);
 app.post('/trans/add', transct.add);
 // app.post('/transect/add', transct.add);
 app.get('/trans/delete/:Id', transct.delete);
-
 
  app.listen(3000);
