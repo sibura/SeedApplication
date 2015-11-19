@@ -4,7 +4,7 @@ exports.transact = function(req, res, next){
 			return next(error);
 		}
 //SELECT transaction.currency_amount, transaction.currency_id  from transaction, currency where transaction.currency_id = currency.id
-		connection.query('SELECT transaction.currency_amount, transaction.currency_id  from transaction, currency where transaction.currency_id = currency.id;', [], function(error, results) {
+		connection.query('SELECT transaction.currency_amount, transaction.currency_id,currency.exchange_rate,transaction.exchange_rate, currency.description, transaction.descriptions  from transaction, currency where transaction.currency_id = currency.id;', [], function(error, results) {
 			if (error) {
 				return next(error);
 			}
@@ -46,7 +46,10 @@ exports.add = function (req, res, next) {
 		var input = req.body;
 		var data = {
 			currency_amount : input.currency_amount,
-			currency_id : input.currency_id
+			currency_id : input.currency_id,
+			exchange_rate : input.exchange_rate,
+			//description : input.description,
+			//descriptions : input.descriptions
 		};
 		console.log("......" + data)
 		connection.query('insert into transaction set ?', data, function(err, results) {

@@ -10,11 +10,10 @@
 	Amount:<input name="currency_amount" type="number" min='0' class='amount' id='curr_amount' placeholder='Amount to convert' />
 	Currency:<select name="currency_id">
 		{{#currency}}
-		<option value="{{id}}">{{currency_code}}</option>
+		<option value="{{id}}">{{description}}</option>
 		{{/currency}}
-	</select>
-	
 
+	</select>
 	<input type="submit" value="convert">
 </form>
 </div>
