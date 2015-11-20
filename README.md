@@ -1,4 +1,4 @@
-# Seed Application
+#Sbu's Seed Application
 
 
 
@@ -70,5 +70,25 @@ Each step should give an example command, like this:
 ## Maintain it
 
 It's important that you **keep your seed application up to date** with the latest things you have learned. And also to create **new Seed Applications** as you learn **new languages and technologies**.
+
+## To-Do
+* Login page
+  * On routes create login.js
+  * login.handlebars in the views folder
+
+* Sign-Up page(handlebar)
+
+
+## Doing
+*
+*
+*
+*
+
+## Done
+*
+*
+*
+*
 
 Have Fun! :)
